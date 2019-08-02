@@ -20,7 +20,8 @@
     "eslint": ">=3"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^13.2.0"
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
