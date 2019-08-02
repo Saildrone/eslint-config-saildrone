@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-saildrone",
+  "version": "1.0.0",
+  "description": "Saildrone ESLint Config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saildrone/eslint-config-saildrone.git"
+  },
+  "author": "Todd Bealmear <todd@saildrone.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Saildrone/eslint-config-saildrone/issues"
+  },
+  "homepage": "https://github.com/Saildrone/eslint-config-saildrone#readme",
+  "peerDependencies": {
+    "eslint": ">=3"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^13.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
