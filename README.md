@@ -17,7 +17,7 @@ Create a `.eslintrc.json` file in your project's root directory. At minimum, it 
 }
 ```
 
-Optionally, you can add `lint` script to `package.json`:
+Optionally, you can add a `lint` script to `package.json`:
 
 ```json
 {
