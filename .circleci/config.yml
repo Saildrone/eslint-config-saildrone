@@ -1,0 +1,16 @@
+version: 2.1
+
+orbs:
+  npm-github-publish: saildrone/npm-github-publish@0.1
+
+workflows:
+  test_and_publish:
+    jobs:
+      - npm-github-publish/login-publish:
+          image: cimg/node:14.17.6
+          context: platform-k8s
+          filters:
+            tags:
+              only: /.*/
+            branches:
+              ignore: /.*/

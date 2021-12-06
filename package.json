@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-saildrone",
+  "name": "@saildrone/eslint-config-saildrone",
   "version": "1.0.1",
   "description": "Saildrone ESLint Config",
   "main": "index.js",
@@ -22,8 +22,5 @@
   "dependencies": {
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-plugin-import": "^2.18.2"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
   }
 }
