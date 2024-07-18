@@ -1,6 +1,6 @@
 {
   "name": "@saildrone/eslint-config-saildrone",
-  "version": "2.0.0",
+  "version": "1.1.0",
   "description": "Saildrone ESLint Config",
   "main": "index.js",
   "scripts": {
@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/Saildrone/eslint-config-saildrone#readme",
   "peerDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": ">=3"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.29.1"
+    "eslint-plugin-import": "^2.18.2"
   }
 }

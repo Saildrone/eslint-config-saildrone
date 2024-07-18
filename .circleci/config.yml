@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  npm-publish: saildrone/npm-publish@0dev:TPI-2126
+  npm-publish: saildrone/npm-publish@0.0.1
 
 workflows:
   test_and_publish:
