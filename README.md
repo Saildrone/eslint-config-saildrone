@@ -34,3 +34,7 @@ This configuration is based upon AirBnB's excellent Javascript styleguide. We ha
 ## Contributing
 
 If you'd like to make a change to our linting configuration, open an issue or PR on the [styleguide fork](https://github.com/saildrone/javascript). Once the change has been approved, you may add override configuration to this repository.
+
+## sd_login
+
+This project is now using CodeArtifact repository to push and pull NPM packages. This requires AWS credentials to generate an AWS CodeArtifact authentication token, which is then used to login to CodeArtifact. For local development, you can retrieve the appropriate credentials and CODEARTIFACT_AUTH_TOKEN by adding the `sd_login` to your local machine: https://github.com/Saildrone/sd_login/blob/main/README.md

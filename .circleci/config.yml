@@ -1,12 +1,12 @@
 version: 2.1
 
 orbs:
-  npm-github-publish: saildrone/npm-github-publish@0.1
+  npm-publish: saildrone/npm-publish@0.0.2
 
 workflows:
   test_and_publish:
     jobs:
-      - npm-github-publish/login-publish:
+      - npm-publish/login-publish:
           image: cimg/node:14.17.6
           context: platform-k8s
           filters:
